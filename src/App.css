@@ -1,6 +1,11 @@
+.amount-page{
+  padding-top: 10px;
+}
+
 .App {
   text-align: center;
-}
+  margin: 0px;
+  }
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,158 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.balance{
+  padding: 20px;
+}
+
+.debit-table{
+  border-width: 1px;
+}
+td{
+  width: 250px;
+}
+
+#debit-number{
+  width: 25px;
+}
+
+.home-page{
+  text-align: center;
+  display: 60%;
+}
+
+.balance-page{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 15px;
+}
+
+
+#home-img{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  padding-bottom: 10px;
+  
+}
+
+tr{
+  text-align: center;
+}
+
+td{
+  padding: 10px;
+}
+
+.home-title{
+  font-size: 40px;
+}
+
+#login-link{
+  padding: 5px;
+  margin: 0 10px ;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(226, 226, 226);
+  color: black;
+}  
+  
+#profile-link{
+  padding: 5px;
+  margin: 0 10px ;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(226, 226, 226);
+  color: black;
+}
+
+#debit-link{
+  padding: 5px;
+  margin: 0 10px ;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(226, 226, 226);
+  color: black;
+}
+
+
+#credit-link{
+  padding: 5px;
+  margin: 0 10px ;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(226, 226, 226);
+  color: black;
+}
+
+#home-link{
+
+  margin: 5px 20px ;
+  font-size: 20px;
+  font-weight: bold;  
+  background-color: rgb(226, 226, 226);
+  color: black;  
+}
+
+.login-form{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 50px;
+}
+
+#login-btn{
+  padding: 5px;
+  font-size: 15px;
+  margin: 15px;
+}
+#login-header {
+  padding: 15px;
+  background-color: rgb(42, 99, 255);
+  color: whitesmoke;
+}
+
+
+
+.login-header{
+  text-align: center;
+}
+
+input{
+  width: 200px;
+  padding: 5px;
+}
+
+#debit-head{
+  padding: 15px;
+  background-color: rgb(42, 99, 255);
+  color: whitesmoke;
+}
+
+h2{
+  padding: 15px;
+  background-color: rgb(42, 99, 255);
+  color: whitesmoke;
+}
+
+#submit-btn{
+  padding: 5px;
+  width: 50px;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.add{
+  padding: 5px;
+}
+
+#input1{
+ margin-right: 10px;
 }
