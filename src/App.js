@@ -73,7 +73,7 @@ const App = () => {
   return (    
     <Router>     
         <Routes>
-          <Route exact path="/" element={<Home accountBalance = {accountBalance} />}/>
+          <Route exact path="/Bank-of-React" element={<Home accountBalance = {accountBalance} />}/>
           <Route exact path="/login" 
             element={<Login user={currentUser} 
             mockLogIn={mockLogIn} />}/>

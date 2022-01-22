@@ -6,11 +6,16 @@ const userProfile = (props) => {
 
     console.log(props)
     return (
-        <div>
-            <Link to="/">Home</Link>
-            <h1>User Profile</h1>
-            <div>Username: {props.userName}</div>
-            <div>Member Since: {props.memberSince}</div>
+        <div className='userProfile-page'>
+            
+            <h1 id='debit-head'>User Profile</h1>
+            <Link to="/Bank-of-React"
+                id="home-link" style={{ textDecoration: 'none' }}>Home</Link>
+            <div className='userProfile-body'>
+                <div>Username: {props.userName}</div>
+                <div>Member Since: {props.memberSince}</div>
+            </div>
+            
         </div>
     );
 

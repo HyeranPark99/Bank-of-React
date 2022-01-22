@@ -70,7 +70,7 @@ export default function Debits(props) {
 
   return(
   <div className='amount-page'>
-    <Link to="/" 
+    <Link to="/Bank-of-React" 
         id="home-link"
         style={{ textDecoration: 'none' }}
     >Home</Link>

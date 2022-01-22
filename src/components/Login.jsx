@@ -45,7 +45,7 @@ const Login = (props) => {
         <div>
             <div className="login-header">
                 <h1 id="login-header">Log In</h1>
-                <Link to="/" id="home-link" style={{ textDecoration: 'none' }}>Home</Link>
+                <Link to="/Bank-of-React" id="home-link" style={{ textDecoration: 'none' }}>Home</Link>
             </div>
             
             <form onSubmit={handleSubmit} className="login-form">                

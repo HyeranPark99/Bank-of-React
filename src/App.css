@@ -195,3 +195,13 @@ h2{
 #input1{
  margin-right: 10px;
 }
+
+.userProfile-page{
+  text-align: center;
+}
+
+.userProfile-body{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 35px 0;
+}

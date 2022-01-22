@@ -68,7 +68,7 @@ export default function Credits(props) {
   return(
   <div>
    <div className='amount-page'>
-   <Link to="/" 
+   <Link to="/Bank-of-React" 
     id="home-link"
     style={{ textDecoration: 'none' }}>Home</Link>      
     <h1 id='debit-head'>Credits</h1>  
